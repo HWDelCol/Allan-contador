@@ -1,0 +1,110 @@
+.cores{
+    color: #04353c;
+    color: #888483;
+    color: #03353c;
+    color: #03343b;
+    color: #04343b;
+    color: #003239;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #003239;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.profile{
+    background: url(assets/contador-profile.png);
+    background-position: center;
+    background-size: contain;
+    border: 1px solid #04353c;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 28px;
+}
+.nome{
+    text-align: center;
+    margin-bottom: 4px;
+    margin-top: 24px;
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.profissao{
+    font-size: 20px;
+    font-weight: 300px;
+    color: #fff;
+}
+
+.warp{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 20px;
+}
+
+aside{
+    width: 30%;
+    margin-right: 32px;
+}
+
+.servicos{
+    color: #eed03d;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+ul{
+    margin-left: 28px;
+}
+
+li{
+    color: #fff;
+    font-size: 20px;
+}
+
+.btn{
+    display: block;
+    border:1px solid #04353c;
+    border-radius: 12px;
+    background:radial-gradient(#237c8a, #003239);
+    color: #fff;
+    text-align: center;
+    padding: 8px 24px;
+    width: 350px;
+    margin: 8px auto;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.quadrado{
+    color: #eed03d;
+    border: 1px solid #eed03d;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    width: 28px;
+    margin-left: 28px;
+    margin-top: 8px;
+}
+
+.logo-texto{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
