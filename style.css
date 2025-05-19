@@ -119,3 +119,21 @@ footer{
     text-align: center;
     font-weight: bold;
 }
+
+@media (max-width:400px) {
+    .warp{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+    aside{
+        width: 100%;
+        margin: 0 auto;
+    }
+    main{
+        width: 100%;
+    }
+    
+}
