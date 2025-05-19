@@ -79,6 +79,11 @@ li{
     font-size: 20px;
 }
 
+.forte{
+    font-weight: bold;
+    font-size: 22px;
+}
+
 .btn{
     display: block;
     border:1px solid #04353c;
